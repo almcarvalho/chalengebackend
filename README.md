@@ -34,3 +34,9 @@ mutation {
   }
 }
 
+
+<br/>
+<br/>
+
+<img src = /docs/docdatabase.png>
+
