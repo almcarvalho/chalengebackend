@@ -38,5 +38,5 @@ mutation {
 <br/>
 <br/>
 
-<img src = /docs/docdatabase.png>
+<img src = "https://github.com/almcarvalho/chalengebackend/blob/main/docs/DocDatabase.png">
 
