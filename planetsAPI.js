@@ -10,7 +10,7 @@ class PlanetsAPI extends RESTDataSource {
 
 
     async suitablePlanets() {
-        return this.get('sync?query=select+*+from+ps+where+upper(soltype)+like+%27%CONF%%27+and+pl_masse+>+10&format=json');
+        return this.get('sync?query=select+*+from+ps+where+upper(soltype)+like+%27%CONF%%27+and+pl_bmassj+>+10&format=json');
     }
 
 

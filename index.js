@@ -14,7 +14,7 @@ const resolvers = {
 const typeDefs = gql`
   type Planet {
     pl_name: String
-    pl_bmasse: String
+    pl_bmassj: String
   }
 
   #example
