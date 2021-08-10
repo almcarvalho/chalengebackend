@@ -38,6 +38,6 @@ mutation {
 <br/>
 <br/>
 
-<h1> <a href="https://bedecked-echidna-e33.notion.site/Documentation-API-f78c517f9df94aea83c1ad9ef69e0a0e"> More Docs </a> </h1>
+<h3> <a href="https://bedecked-echidna-e33.notion.site/Documentation-API-f78c517f9df94aea83c1ad9ef69e0a0e" target="_blanck"> More Docs </a> </h3>
 
 
