@@ -1,5 +1,9 @@
 const { ApolloServer, gql } = require('apollo-server');
+//busca an api da nasa os planetas ideais (suitable) //não está configurado para iniciar no package.json (APP INICIA COM MYAPP.JS)
 const PlanetsAPI = require("./planetsAPI");
+
+
+
 
 
 const resolvers = {

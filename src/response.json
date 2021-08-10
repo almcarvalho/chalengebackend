@@ -1,0 +1,882 @@
+{
+    "data": {
+        "planets": [
+            {
+                "pl_name": "HD 110014 b",
+                "pl_bmassj": "11.09"
+            },
+            {
+                "pl_name": "HD 156846 b",
+                "pl_bmassj": "10.57"
+            },
+            {
+                "pl_name": "CHXR 73 b",
+                "pl_bmassj": "12.569"
+            },
+            {
+                "pl_name": "HD 13189 b",
+                "pl_bmassj": "14"
+            },
+            {
+                "pl_name": "tau Gem b",
+                "pl_bmassj": "18.1"
+            },
+            {
+                "pl_name": "KELT-1 b",
+                "pl_bmassj": "27.23"
+            },
+            {
+                "pl_name": "nu Oph c",
+                "pl_bmassj": "27"
+            },
+            {
+                "pl_name": "Kepler-48 c",
+                "pl_bmassj": "11.61"
+            },
+            {
+                "pl_name": "HD 106270 b",
+                "pl_bmassj": "11"
+            },
+            {
+                "pl_name": "HD 219077 b",
+                "pl_bmassj": "10.39"
+            },
+            {
+                "pl_name": "DENIS-P J082303.1-491201 b",
+                "pl_bmassj": "28.5"
+            },
+            {
+                "pl_name": "DH Tau b",
+                "pl_bmassj": "11"
+            },
+            {
+                "pl_name": "ROXs 12 b",
+                "pl_bmassj": "16"
+            },
+            {
+                "pl_name": "HD 41004 B b",
+                "pl_bmassj": "18.37"
+            },
+            {
+                "pl_name": "11 UMi b",
+                "pl_bmassj": "10.5"
+            },
+            {
+                "pl_name": "11 Com b",
+                "pl_bmassj": "19.4"
+            },
+            {
+                "pl_name": "BD+20 2457 b",
+                "pl_bmassj": "21.42"
+            },
+            {
+                "pl_name": "CoRoT-3 b",
+                "pl_bmassj": "21.23"
+            },
+            {
+                "pl_name": "HD 38801 b",
+                "pl_bmassj": "10.7"
+            },
+            {
+                "pl_name": "HD 38529 c",
+                "pl_bmassj": "12.99"
+            },
+            {
+                "pl_name": "HD 30177 b",
+                "pl_bmassj": "10.45"
+            },
+            {
+                "pl_name": "HD 114762 b",
+                "pl_bmassj": "11.68"
+            },
+            {
+                "pl_name": "HD 110014 b",
+                "pl_bmassj": "13.67"
+            },
+            {
+                "pl_name": "HD 180314 b",
+                "pl_bmassj": "20.3"
+            },
+            {
+                "pl_name": "2MASS J02192210-3925225 b",
+                "pl_bmassj": "13.9"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.2"
+            },
+            {
+                "pl_name": "HAT-P-13 c",
+                "pl_bmassj": "14.61"
+            },
+            {
+                "pl_name": "HD 214823 b",
+                "pl_bmassj": "19.2"
+            },
+            {
+                "pl_name": "HD 219828 c",
+                "pl_bmassj": "15.1"
+            },
+            {
+                "pl_name": "WASP-53 c",
+                "pl_bmassj": "16.35"
+            },
+            {
+                "pl_name": "MXB 1658-298 b",
+                "pl_bmassj": "23.7"
+            },
+            {
+                "pl_name": "HR 2562 b",
+                "pl_bmassj": "30"
+            },
+            {
+                "pl_name": "HD 17092 b",
+                "pl_bmassj": "10.13"
+            },
+            {
+                "pl_name": "HD 38529 c",
+                "pl_bmassj": "13.1"
+            },
+            {
+                "pl_name": "HD 180314 b",
+                "pl_bmassj": "20.13"
+            },
+            {
+                "pl_name": "HD 220074 b",
+                "pl_bmassj": "16.64"
+            },
+            {
+                "pl_name": "HD 202206 c",
+                "pl_bmassj": "17.9"
+            },
+            {
+                "pl_name": "HD 217850 b",
+                "pl_bmassj": "21.6"
+            },
+            {
+                "pl_name": "bet Pic b",
+                "pl_bmassj": "11"
+            },
+            {
+                "pl_name": "HD 38801 b",
+                "pl_bmassj": "10.13"
+            },
+            {
+                "pl_name": "HD 92987 b",
+                "pl_bmassj": "16.88"
+            },
+            {
+                "pl_name": "DE CVn b",
+                "pl_bmassj": "12.0293"
+            },
+            {
+                "pl_name": "HATS-70 b",
+                "pl_bmassj": "12.9"
+            },
+            {
+                "pl_name": "Kepler-448 c",
+                "pl_bmassj": "22"
+            },
+            {
+                "pl_name": "HD 81817 b",
+                "pl_bmassj": "27.1"
+            },
+            {
+                "pl_name": "nu Oph c",
+                "pl_bmassj": "24.662"
+            },
+            {
+                "pl_name": "HD 125390 b",
+                "pl_bmassj": "22.16"
+            },
+            {
+                "pl_name": "GU Psc b",
+                "pl_bmassj": "11.3"
+            },
+            {
+                "pl_name": "HD 26161 b",
+                "pl_bmassj": "13.5"
+            },
+            {
+                "pl_name": "HD 38529 c",
+                "pl_bmassj": "13.2"
+            },
+            {
+                "pl_name": "HD 168443 c",
+                "pl_bmassj": "16.87"
+            },
+            {
+                "pl_name": "HD 168443 c",
+                "pl_bmassj": "18.1"
+            },
+            {
+                "pl_name": "CI Tau b",
+                "pl_bmassj": "11.6"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.47"
+            },
+            {
+                "pl_name": "HD 168443 c",
+                "pl_bmassj": "17.193"
+            },
+            {
+                "pl_name": "XO-3 b",
+                "pl_bmassj": "12.15"
+            },
+            {
+                "pl_name": "HD 168443 c",
+                "pl_bmassj": "18.1"
+            },
+            {
+                "pl_name": "HD 38529 c",
+                "pl_bmassj": "13.38"
+            },
+            {
+                "pl_name": "TYC 8998-760-1 b",
+                "pl_bmassj": "14"
+            },
+            {
+                "pl_name": "HD 38529 c",
+                "pl_bmassj": "13.23"
+            },
+            {
+                "pl_name": "BD-00 4475 b",
+                "pl_bmassj": "25.05"
+            },
+            {
+                "pl_name": "HD 68988 c",
+                "pl_bmassj": "15"
+            },
+            {
+                "pl_name": "Kepler-75 b",
+                "pl_bmassj": "10.1"
+            },
+            {
+                "pl_name": "HD 168443 c",
+                "pl_bmassj": "17.76"
+            },
+            {
+                "pl_name": "GSC 06214-00210 b",
+                "pl_bmassj": "13.5"
+            },
+            {
+                "pl_name": "Kepler-52 c",
+                "pl_bmassj": "10.41"
+            },
+            {
+                "pl_name": "CoRoT-27 b",
+                "pl_bmassj": "10.39"
+            },
+            {
+                "pl_name": "Kepler-27 c",
+                "pl_bmassj": "13.8"
+            },
+            {
+                "pl_name": "BD-13 2130 b",
+                "pl_bmassj": "10.6"
+            },
+            {
+                "pl_name": "KIC 7917485 b",
+                "pl_bmassj": "11.8"
+            },
+            {
+                "pl_name": "HD 219077 b",
+                "pl_bmassj": "13.4"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.4"
+            },
+            {
+                "pl_name": "HD 110014 b",
+                "pl_bmassj": "10.9"
+            },
+            {
+                "pl_name": "HD 131664 b",
+                "pl_bmassj": "18.15"
+            },
+            {
+                "pl_name": "CoRoT-27 b",
+                "pl_bmassj": "10.3"
+            },
+            {
+                "pl_name": "USco1621 b",
+                "pl_bmassj": "16"
+            },
+            {
+                "pl_name": "Kepler-39 b",
+                "pl_bmassj": "20.1"
+            },
+            {
+                "pl_name": "XO-3 b",
+                "pl_bmassj": "11.83"
+            },
+            {
+                "pl_name": "OGLE-2013-BLG-0102L b",
+                "pl_bmassj": "13"
+            },
+            {
+                "pl_name": "MOA-2010-BLG-073L b",
+                "pl_bmassj": "11"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.29"
+            },
+            {
+                "pl_name": "OGLE-2016-BLG-1190L b",
+                "pl_bmassj": "13.38"
+            },
+            {
+                "pl_name": "WD 1856+534 b",
+                "pl_bmassj": "13.8"
+            },
+            {
+                "pl_name": "OGLE-2017-BLG-1375L b",
+                "pl_bmassj": "13.27"
+            },
+            {
+                "pl_name": "OGLE-2016-BLG-1190L b",
+                "pl_bmassj": "13.38"
+            },
+            {
+                "pl_name": "OGLE-2017-BLG-1375L b",
+                "pl_bmassj": "11.28"
+            },
+            {
+                "pl_name": "MOA-2011-BLG-322L b",
+                "pl_bmassj": "11.6"
+            },
+            {
+                "pl_name": "KMT-2019-BLG-1339L b",
+                "pl_bmassj": "12.2"
+            },
+            {
+                "pl_name": "KMT-2019-BLG-1339L b",
+                "pl_bmassj": "10.7"
+            },
+            {
+                "pl_name": "MOA-2015-BLG-337L b",
+                "pl_bmassj": "18"
+            },
+            {
+                "pl_name": "OGLE-2013-BLG-0102L b",
+                "pl_bmassj": "14"
+            },
+            {
+                "pl_name": "OGLE-2017-BLG-1375L b",
+                "pl_bmassj": "10.33"
+            },
+            {
+                "pl_name": "OGLE-2017-BLG-1375L b",
+                "pl_bmassj": "13.16"
+            },
+            {
+                "pl_name": "KMT-2016-BLG-2142L b",
+                "pl_bmassj": "15.49"
+            },
+            {
+                "pl_name": "MOA-2015-BLG-337L b",
+                "pl_bmassj": "18"
+            },
+            {
+                "pl_name": "KMT-2016-BLG-0212L b",
+                "pl_bmassj": "18"
+            },
+            {
+                "pl_name": "HD 39091 b",
+                "pl_bmassj": "10.27"
+            },
+            {
+                "pl_name": "HD 39091 b",
+                "pl_bmassj": "10.3"
+            },
+            {
+                "pl_name": "HD 39091 b",
+                "pl_bmassj": "10.02"
+            },
+            {
+                "pl_name": "HD 39091 b",
+                "pl_bmassj": "12.9"
+            },
+            {
+                "pl_name": "HD 39091 b",
+                "pl_bmassj": "12.9"
+            },
+            {
+                "pl_name": "HD 221420 b",
+                "pl_bmassj": "22.9"
+            },
+            {
+                "pl_name": "HD 217786 b",
+                "pl_bmassj": "13"
+            },
+            {
+                "pl_name": "HD 156846 b",
+                "pl_bmassj": "10.67"
+            },
+            {
+                "pl_name": "HD 180314 b",
+                "pl_bmassj": "22"
+            },
+            {
+                "pl_name": "HD 95127 b",
+                "pl_bmassj": "10.63"
+            },
+            {
+                "pl_name": "HD 38801 b",
+                "pl_bmassj": "12.12"
+            },
+            {
+                "pl_name": "HD 24064 b",
+                "pl_bmassj": "12.89"
+            },
+            {
+                "pl_name": "HD 114762 b",
+                "pl_bmassj": "10.69"
+            },
+            {
+                "pl_name": "TYC 4282-00605-1 b",
+                "pl_bmassj": "10.78"
+            },
+            {
+                "pl_name": "HIP 5158 c",
+                "pl_bmassj": "15.04"
+            },
+            {
+                "pl_name": "HD 156846 b",
+                "pl_bmassj": "10.45"
+            },
+            {
+                "pl_name": "HD 41004 B b",
+                "pl_bmassj": "18.64"
+            },
+            {
+                "pl_name": "HD 106270 b",
+                "pl_bmassj": "10.13"
+            },
+            {
+                "pl_name": "HD 220074 b",
+                "pl_bmassj": "11.1"
+            },
+            {
+                "pl_name": "11 Com b",
+                "pl_bmassj": "17.1"
+            },
+            {
+                "pl_name": "HATS-59 c",
+                "pl_bmassj": "12.7"
+            },
+            {
+                "pl_name": "GSC 06214-00210 b",
+                "pl_bmassj": "16"
+            },
+            {
+                "pl_name": "PDS 70 c",
+                "pl_bmassj": "10.48949"
+            },
+            {
+                "pl_name": "GSC 06214-00210 b",
+                "pl_bmassj": "17"
+            },
+            {
+                "pl_name": "GSC 06214-00210 b",
+                "pl_bmassj": "15"
+            },
+            {
+                "pl_name": "HW Vir b",
+                "pl_bmassj": "14.48228"
+            },
+            {
+                "pl_name": "HD 240237 b",
+                "pl_bmassj": "15.89"
+            },
+            {
+                "pl_name": "HD 38529 c",
+                "pl_bmassj": "13.21"
+            },
+            {
+                "pl_name": "HD 66428 c",
+                "pl_bmassj": "27"
+            },
+            {
+                "pl_name": "18 Del b",
+                "pl_bmassj": "10.3"
+            },
+            {
+                "pl_name": "HD 219828 c",
+                "pl_bmassj": "14.6"
+            },
+            {
+                "pl_name": "HD 8673 b",
+                "pl_bmassj": "14.2"
+            },
+            {
+                "pl_name": "HD 87646 b",
+                "pl_bmassj": "12.4"
+            },
+            {
+                "pl_name": "HIP 97233 b",
+                "pl_bmassj": "20"
+            },
+            {
+                "pl_name": "nu Oph b",
+                "pl_bmassj": "24"
+            },
+            {
+                "pl_name": "HIP 67537 b",
+                "pl_bmassj": "11.1"
+            },
+            {
+                "pl_name": "11 UMi b",
+                "pl_bmassj": "10.8"
+            },
+            {
+                "pl_name": "HD 96127 b",
+                "pl_bmassj": "20.96"
+            },
+            {
+                "pl_name": "HD 22781 b",
+                "pl_bmassj": "13.65"
+            },
+            {
+                "pl_name": "30 Ari B b",
+                "pl_bmassj": "13.82"
+            },
+            {
+                "pl_name": "BD+20 2457 b",
+                "pl_bmassj": "55.59"
+            },
+            {
+                "pl_name": "HD 13189 b",
+                "pl_bmassj": "10.95"
+            },
+            {
+                "pl_name": "HD 162020 b",
+                "pl_bmassj": "14.4"
+            },
+            {
+                "pl_name": "11 UMi b",
+                "pl_bmassj": "14.74"
+            },
+            {
+                "pl_name": "HD 131664 b",
+                "pl_bmassj": "19.12"
+            },
+            {
+                "pl_name": "HD 214823 b",
+                "pl_bmassj": "20.3"
+            },
+            {
+                "pl_name": "HD 92987 b",
+                "pl_bmassj": "17.9"
+            },
+            {
+                "pl_name": "BD+20 2457 c",
+                "pl_bmassj": "12.47"
+            },
+            {
+                "pl_name": "HAT-P-13 c",
+                "pl_bmassj": "15.2"
+            },
+            {
+                "pl_name": "HAT-P-13 c",
+                "pl_bmassj": "14.61"
+            },
+            {
+                "pl_name": "HD 114762 b",
+                "pl_bmassj": "10.98"
+            },
+            {
+                "pl_name": "HD 158996 b",
+                "pl_bmassj": "14"
+            },
+            {
+                "pl_name": "tau Gem b",
+                "pl_bmassj": "20.6"
+            },
+            {
+                "pl_name": "HAT-P-13 c",
+                "pl_bmassj": "14.28"
+            },
+            {
+                "pl_name": "NSVS 14256825 b",
+                "pl_bmassj": "14.15"
+            },
+            {
+                "pl_name": "CoRoT-20 c",
+                "pl_bmassj": "17"
+            },
+            {
+                "pl_name": "HD 4760 b",
+                "pl_bmassj": "13.9"
+            },
+            {
+                "pl_name": "CT Cha b",
+                "pl_bmassj": "17"
+            },
+            {
+                "pl_name": "KELT-20 b",
+                "pl_bmassj": "17"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.11"
+            },
+            {
+                "pl_name": "AB Pic b",
+                "pl_bmassj": "13.5"
+            },
+            {
+                "pl_name": "ROXs 42 B b",
+                "pl_bmassj": "10.5"
+            },
+            {
+                "pl_name": "2MASS J01033563-5515561 AB b",
+                "pl_bmassj": "13"
+            },
+            {
+                "pl_name": "HD 203030 b",
+                "pl_bmassj": "24.09"
+            },
+            {
+                "pl_name": "Kepler-407 c",
+                "pl_bmassj": "12.6"
+            },
+            {
+                "pl_name": "CoRoT-3 b",
+                "pl_bmassj": "21.96"
+            },
+            {
+                "pl_name": "HIP 78530 b",
+                "pl_bmassj": "23"
+            },
+            {
+                "pl_name": "VHS J125601.92-125723.9 b",
+                "pl_bmassj": "42.8"
+            },
+            {
+                "pl_name": "Kepler-30 d",
+                "pl_bmassj": "17"
+            },
+            {
+                "pl_name": "HIP 79098 AB b",
+                "pl_bmassj": "20.5"
+            },
+            {
+                "pl_name": "VHS J125601.92-125723.9 b",
+                "pl_bmassj": "43.3"
+            },
+            {
+                "pl_name": "Oph 11 b",
+                "pl_bmassj": "21"
+            },
+            {
+                "pl_name": "ups And d",
+                "pl_bmassj": "10.25"
+            },
+            {
+                "pl_name": "ups And c",
+                "pl_bmassj": "13.98"
+            },
+            {
+                "pl_name": "TOI-1278 b",
+                "pl_bmassj": "18.5"
+            },
+            {
+                "pl_name": "OGLE-2019-BLG-0954L b",
+                "pl_bmassj": "14.2"
+            },
+            {
+                "pl_name": "HAT-P-2 b",
+                "pl_bmassj": "11.43"
+            },
+            {
+                "pl_name": "CoRoT-3 b",
+                "pl_bmassj": "21.66"
+            },
+            {
+                "pl_name": "GQ Lup b",
+                "pl_bmassj": "20"
+            },
+            {
+                "pl_name": "USco CTIO 108 b",
+                "pl_bmassj": "14"
+            },
+            {
+                "pl_name": "Kepler-53 c",
+                "pl_bmassj": "15.74"
+            },
+            {
+                "pl_name": "HD 106906 b",
+                "pl_bmassj": "11"
+            },
+            {
+                "pl_name": "kap And b",
+                "pl_bmassj": "12.8"
+            },
+            {
+                "pl_name": "XO-3 b",
+                "pl_bmassj": "11.79"
+            },
+            {
+                "pl_name": "WISEP J121756.91+162640.2 A b",
+                "pl_bmassj": "22"
+            },
+            {
+                "pl_name": "TOI-519 b",
+                "pl_bmassj": "14"
+            },
+            {
+                "pl_name": "Oph 11 b",
+                "pl_bmassj": "14"
+            },
+            {
+                "pl_name": "HIP 78530 b",
+                "pl_bmassj": "23.04"
+            },
+            {
+                "pl_name": "HIP 78530 b",
+                "pl_bmassj": "24"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.43"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.38"
+            },
+            {
+                "pl_name": "Kepler-47 c",
+                "pl_bmassj": "28"
+            },
+            {
+                "pl_name": "USco1556 b",
+                "pl_bmassj": "15"
+            },
+            {
+                "pl_name": "1RXS J160929.1-210524 b",
+                "pl_bmassj": "12"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.42954"
+            },
+            {
+                "pl_name": "FU Tau b",
+                "pl_bmassj": "16"
+            },
+            {
+                "pl_name": "DH Tau b",
+                "pl_bmassj": "11"
+            },
+            {
+                "pl_name": "Kepler-53 b",
+                "pl_bmassj": "18.41"
+            },
+            {
+                "pl_name": "2MASS J01225093-2439505 b",
+                "pl_bmassj": "24.5"
+            },
+            {
+                "pl_name": "2MASS J21402931+1625183 A b",
+                "pl_bmassj": "20.95"
+            },
+            {
+                "pl_name": "HN Peg b",
+                "pl_bmassj": "21.9987"
+            },
+            {
+                "pl_name": "Kepler-25 b",
+                "pl_bmassj": "12.7"
+            },
+            {
+                "pl_name": "PH2 b",
+                "pl_bmassj": "80"
+            },
+            {
+                "pl_name": "bet Pic b",
+                "pl_bmassj": "20"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.43"
+            },
+            {
+                "pl_name": "2MASS J22362452+4751425 b",
+                "pl_bmassj": "12.5"
+            },
+            {
+                "pl_name": "Kepler-57 b",
+                "pl_bmassj": "18.86"
+            },
+            {
+                "pl_name": "HD 106906 b",
+                "pl_bmassj": "12.95"
+            },
+            {
+                "pl_name": "Kepler-39 b",
+                "pl_bmassj": "17.9"
+            },
+            {
+                "pl_name": "kap And b",
+                "pl_bmassj": "13.616"
+            },
+            {
+                "pl_name": "Kepler-39 b",
+                "pl_bmassj": "20.1"
+            },
+            {
+                "pl_name": "EPIC 248847494 b",
+                "pl_bmassj": "13"
+            },
+            {
+                "pl_name": "GQ Lup b",
+                "pl_bmassj": "31"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "11.44"
+            },
+            {
+                "pl_name": "VHS J125601.92-125723.9 b",
+                "pl_bmassj": "11.2"
+            },
+            {
+                "pl_name": "CoRoT-3 b",
+                "pl_bmassj": "21.44"
+            },
+            {
+                "pl_name": "CFBDSIR J145829+101343 b",
+                "pl_bmassj": "10.5"
+            },
+            {
+                "pl_name": "WASP-18 b",
+                "pl_bmassj": "10.2"
+            },
+            {
+                "pl_name": "Kepler-39 b",
+                "pl_bmassj": "18"
+            },
+            {
+                "pl_name": "nu Oph b",
+                "pl_bmassj": "22.206"
+            },
+            {
+                "pl_name": "Kepler-75 b",
+                "pl_bmassj": "10.1"
+            },
+            {
+                "pl_name": "XO-3 b",
+                "pl_bmassj": "11.7"
+            },
+            {
+                "pl_name": "SR 12 AB c",
+                "pl_bmassj": "13"
+            }
+        ]
+    }
+}

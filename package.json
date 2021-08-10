@@ -4,8 +4,9 @@
   "description": "Chalenge Backend for Spacial Stations",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/myapp.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/myapp.js"
   },
   "repository": {
     "type": "git",
