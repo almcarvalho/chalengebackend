@@ -1,0 +1,36 @@
+version: '3'
+
+networks:
+  node.networks:
+    driver: bridge
+
+services:
+  app:
+    build: .
+    entrypoint: dockerize -wait tcp://postgres:5432 -timeout 60s ./.docker/scripts/entrypoint.sh
+    container_name: node.app
+    tty: true
+    depends_on:
+      - postgres
+    networks:
+      - node.networks
+    volumes:
+      - .:/home/node/app:z
+    ports:
+      - 4000:4000
+
+  postgres:
+    build: .docker/postgres
+    tty: true
+    restart: always
+    container_name: node.postgres
+    networks:
+      - node.networks
+    ports:
+      - '5432:5432'
+    volumes:
+      - .docker/postgres/dbdata:/var/lib/postgresql/data:z
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=development
