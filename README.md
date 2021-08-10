@@ -8,6 +8,8 @@ Rode o index.js
 
 Veja o exemplo:
 
+![Alt Text](https://github.com/almcarvalho/chalengebackend/blob/main/docs/demos/demo.gif)
+
 
 Querys and Mutations:
 
