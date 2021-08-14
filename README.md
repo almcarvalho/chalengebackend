@@ -28,6 +28,16 @@ query {
   }
 }
 
+query {
+  stations  {
+   name
+    planeta{
+      name
+    }
+  }
+}
+
+
 
 
 mutation {
