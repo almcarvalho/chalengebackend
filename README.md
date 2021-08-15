@@ -6,12 +6,7 @@ Considerações iniciais: Desde já, agradeço a oportunidade de estar participa
 GraphQL, Appolo, TypeORM, consultar uma api da NASA, fantástico.
 
 
-Documentação:
-
-Encontrando os planetas ideais pra se colocar as estações de recarga, fiz um filtro usando a documentação da NASA, direto na api deles:
-Rode o index.js
-
-Veja o exemplo:
+Aplicação rodando:
 
 ![Alt Text](https://github.com/almcarvalho/chalengebackend/blob/main/docs/demos/demo.gif)
 
