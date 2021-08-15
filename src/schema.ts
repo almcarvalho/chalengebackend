@@ -2,6 +2,8 @@ import { gql } from 'apollo-server'
 import { getRepository } from 'typeorm'
 import Planet from './entity/Planet'
 import Station from './entity/Station'
+import PlanetsAPI from './planetsAPI'
+
 
 export const typeDefs = gql`
   type Planeta {
@@ -29,28 +31,27 @@ export const typeDefs = gql`
   }
 `
 
-
-
 const getAllPlanets = async () => {
-  const repository = getRepository(Planet);
-  const planets = await repository.find();
-  //const planets = await repository.find({where : {name : "teste"}});
-  return planets;
+  const buscarPlanetas = new PlanetsAPI();
+  const retornoApi = await buscarPlanetas.suitablePlanets();
+
+  //ver os planetas que tem estação e modificar para true; // exemplo:  "HD 110014 b" eu inclui uma nesse aqui!
+  const myStations = getRepository(Station);
+
+  const stations = await myStations.find({
+    relations: ["planet"]
+  });
+
+  stations.forEach(element => {
+    console.log(element.planet.name);
+  });
+
+
+
+
+
+  return retornoApi;
 }
-
-
-// const stations = [
-//     {
-//         id: 1,
-//         name: 'My Station',
-//         planeta: {
-//             id: 1,
-//             name: 'Marte',
-//             mass: 12.5,
-//             hasStation: false,
-//         },
-//     },
-// ]
 
 
 const getAllStations = async () => {
@@ -58,35 +59,29 @@ const getAllStations = async () => {
   const stations = await repository.find({
     relations: ["planet"]
   });
-  console.log(stations);
+  //console.log(stations);
   //const planets = await repository.find({where : {name : "teste"}});
   return stations;
 }
 
 
-
 export const resolvers = {
   Query: {
     suitablePlanets: async (parent: any, args: any) => {
-      return await getAllPlanets()
+      return await getAllPlanets();
     },
     stations: async (parent: any, args: any) => {
       return await getAllStations();
     }
   },
   Mutation: {
-    criarPlaneta: (parent: any, args: any) => {
-      // planetas.push({
-      //     id: planetas.length + 1,
-      //     name: args.name,
-      //     mass: args.mass,
-      //     hasStation: false,
-      // })
-      // return planetas[planetas.length - 1]
+    installStation: (parent: any, args: any) => {
     },
   },
   Planeta: {
-    name: (parent: any) => parent.name,
+    name: (parent: any) => parent.pl_name,
+    mass: (parent: any) => parent.pl_bmassj,
+    hasstation: (parent: any) => false,
     id: (parent: any) => parent.id
   },
 }

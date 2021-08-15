@@ -9,7 +9,6 @@ const port = process.env.PORT || 4000
 //connect to database
 
 
-
 new ApolloServer({ resolvers, typeDefs }).listen({ port }, () =>
     console.log(`My app is running on: http://localhost:${port}`),
 )

@@ -16,5 +16,5 @@ createConnection({
 }).then(() => {
     console.log("Connected...");
 }).catch((err) => {
-    console.log(err);
+    console.log("Problema ao conectar na base de dados" + err);
 });
