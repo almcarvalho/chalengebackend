@@ -15,10 +15,12 @@ Veja o exemplo:
 
 ![Alt Text](https://github.com/almcarvalho/chalengebackend/blob/main/docs/demos/demo.gif)
 
+```typescript
 
-Querys:
 
-```
+#Querys:
+
+
 query {
   suitablePlanets  {
     name
@@ -37,7 +39,7 @@ query {
 }
 
 
- Mutations:
+#Mutations:
 
 mutation CreatePlanetMutation {
   createPlanet (name: "planeta u", mass: 86, hasStation: false){
