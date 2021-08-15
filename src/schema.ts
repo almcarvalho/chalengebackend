@@ -16,13 +16,12 @@ export const typeDefs = gql`
   type Station {
     id: ID!
     name: String!
-    planet: Planeta
+    planet: Planeta!
   }
 
   type Query {
     suitablePlanets: [Planeta!]!
     stations: [Station!]!
-    getPlaneta(id: ID!): Planeta
   }
 
   type Mutation {
@@ -54,10 +53,12 @@ async function hasStationOn(name_station: string) {
 
 const getAllStations = async () => {
   const repository = getRepository(Station);
-  const stations = await repository.find({
+  const stations: Array<Station> = await repository.find({
     relations: ["planet"]
   });
+
   console.log(stations);
+
   return stations;
 }
 
