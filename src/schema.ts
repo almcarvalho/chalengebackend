@@ -57,8 +57,7 @@ const getAllStations = async () => {
   const stations = await repository.find({
     relations: ["planet"]
   });
-  //console.log(stations);
-  //const planets = await repository.find({where : {name : "teste"}});
+  console.log(stations);
   return stations;
 }
 

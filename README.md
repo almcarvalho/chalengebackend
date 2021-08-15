@@ -31,22 +31,14 @@ query {
 query {
   stations  {
    name
-    planeta{
-      name
-    }
   }
 }
 
 
 
-
 mutation {
-  criarPlaneta(name: "Saturno", mass: 15, hasStation: false) {
-    id
-    name
-    mass
-    hasStation
-  }
+  installStation,
+  recharge
 }
 
 
