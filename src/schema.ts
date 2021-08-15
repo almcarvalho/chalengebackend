@@ -25,7 +25,7 @@ export const typeDefs = gql`
   }
 
   type Mutation {
-    criarPlaneta(name: String, mass: Float, hasStation: Boolean!): Planeta!
+    createPlanet(name: String, mass: Float, hasStation: Boolean!): Planeta!
     installStation(planet_name: String) : Planeta!
   }
 `
@@ -73,7 +73,44 @@ export const resolvers = {
     }
   },
   Mutation: {
-    installStation: (parent: any, args: any) => {
+    installStation: async (parent: any, args: any) => {
+      const { name, planet_id } = args;
+
+      try {
+        const stationRepository = getRepository(Station);
+        const planetRepository = getRepository(Planet);
+        const planet = await planetRepository.update(planet_id, {
+          has_station: true
+        });
+        const station = await stationRepository.save({
+          name: name,
+          planet_id: planet_id
+        });
+        return {
+          name: station.name,
+          id: station.id
+        }
+      } catch (error) {
+        console.log(error)
+        return error
+      }
+    },
+    createPlanet: (_: any, args: any) => {
+      const { name, mass } = args;
+
+      try {
+        const planetRepository = getRepository(Planet);
+        const planet = planetRepository.create(
+          {
+            name,
+            mass
+          }
+        );
+        return planetRepository.save(planet);
+      } catch (error) {
+        console.log(error)
+        return error
+      }
     },
   },
   Planeta: {

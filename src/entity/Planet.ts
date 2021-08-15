@@ -3,21 +3,20 @@ import Station from './Station';
 
 @Entity("planets")
 class Planet {
-    @PrimaryGeneratedColumn({ name: "planet_id" })
-    planetId: number
+    @PrimaryGeneratedColumn('increment')
+    id: number
 
     @Column()
     name: string
 
-    @Column({ type: "float" })
+    @Column()
     mass: number
 
-    @Column({ type: "boolean" })
-    hasstation: boolean
+    @Column()
+    has_station: boolean
 
     @OneToMany(() => Station, station => station.planet)
-    station: Station[]
-
+    stations: Station[]
 }
 
 export default Planet;

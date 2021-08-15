@@ -16,9 +16,9 @@ Veja o exemplo:
 ![Alt Text](https://github.com/almcarvalho/chalengebackend/blob/main/docs/demos/demo.gif)
 
 
-Querys and Mutations:
+Querys:
 
-
+```
 query {
   suitablePlanets  {
     name
@@ -30,15 +30,22 @@ query {
 query {
   stations  {
    name
+    planet{
+      name
+    }
   }
 }
 
 
+ Mutations:
 
-mutation {
-  installStation,
-  recharge
+mutation CreatePlanetMutation {
+  createPlanet (name: "planeta u", mass: 86, hasStation: false){
+    id
+  }
 }
+
+```
 
 
 <br/>
