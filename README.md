@@ -3,7 +3,7 @@ Chalenge Backend for Spacial Stations
 
 
 Considerações iniciais: Desde já, agradeço a oportunidade de estar participando desse desafio e poxa, tanta coisa nova que aprendi,
-GraphQL, Appolo, Prisma, consultar uma api da NASA, fantástico.
+GraphQL, Appolo, TypeORM, consultar uma api da NASA, fantástico.
 
 
 Documentação:
