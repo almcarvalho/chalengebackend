@@ -32,25 +32,23 @@ export const typeDefs = gql`
 `
 
 const getAllPlanets = async () => {
+  //PLANETAS
   const buscarPlanetas = new PlanetsAPI();
-  const retornoApi = await buscarPlanetas.suitablePlanets();
-
-  //ver os planetas que tem estação e modificar para true; // exemplo:  "HD 110014 b" eu inclui uma nesse aqui!
-  const myStations = getRepository(Station);
-
-  const stations = await myStations.find({
-    relations: ["planet"]
-  });
-
-  stations.forEach(element => {
-    console.log(element.planet.name);
-  });
-
-
-
-
-
+  const retornoApi: Array<Planet> = await buscarPlanetas.suitablePlanets();
   return retornoApi;
+}
+
+async function hasStationOn(name_station: string) {
+
+  const repository = getRepository(Station);
+  const stations = await repository.find({
+    relations: ["planet"],
+    where: {
+      planet: { name: name_station }
+    }
+  });
+
+  return (stations.length) ? true : false;
 }
 
 
@@ -81,7 +79,7 @@ export const resolvers = {
   Planeta: {
     name: (parent: any) => parent.pl_name,
     mass: (parent: any) => parent.pl_bmassj,
-    hasstation: (parent: any) => false,
+    hasstation: (parent: any) => hasStationOn(parent.pl_name),
     id: (parent: any) => parent.id
   },
 }
