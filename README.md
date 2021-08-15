@@ -21,10 +21,9 @@ Querys and Mutations:
 
 query {
   suitablePlanets  {
-    id
     name
     mass
-    hasStation
+    hasstation
   }
 }
 
