@@ -54,7 +54,7 @@ async function hasStationOn(name_station: string) {
 const getAllStations = async () => {
   const repository = getRepository(Station);
   const stations: Array<Station> = await repository.find({
-    relations: ["planet"]
+    relations: ["planets"]
   });
 
   console.log(stations);
@@ -74,22 +74,31 @@ export const resolvers = {
   },
   Mutation: {
     installStation: async (parent: any, args: any) => {
-      const { name, planet_id } = args;
-
+      const { planet_name } = args;
       try {
         const stationRepository = getRepository(Station);
         const planetRepository = getRepository(Planet);
-        const planet = await planetRepository.update(planet_id, {
+
+        const planets = await planetRepository.findOne({ where: { name: planet_name } });
+
+        let id;
+
+        if (planets) {
+          id = planets.id; //id que eu vou inserir a nova estação
+        } else {
+          throw new Error("planeta não encontrado, não é possível inserir estação aqui!");
+        }
+
+        const planet = await planetRepository.update(id, {
           has_station: true
         });
-        const station = await stationRepository.save({
-          name: name,
-          planet_id: planet_id
+
+        const station = stationRepository.create({
+          name: "Station " + planet_name,
+          planet_id: id
         });
-        return {
-          name: station.name,
-          id: station.id
-        }
+
+        return stationRepository.save(station);
       } catch (error) {
         console.log(error)
         return error
